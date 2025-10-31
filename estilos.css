@@ -1,0 +1,29 @@
+.carousel-item img {
+  height: 1000px;
+  object-fit: cover;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.letra-verde {
+  color: green;
+}
+
+.card-body:hover {
+  background-color: rgba(146, 194, 166, 0.966);
+  ;
+}
+
+.KIKE {
+  font-size: 40px;
+  color: white;
+}
+
+.KIKE:hover {
+  color: rgb(76, 177, 76);
+}
+.card-text {
+  font-size: 18px;
+}

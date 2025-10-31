@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body class="container" >
+    <nav class="navbar bg-body-tertiary">
+      <a class="navbar-brand" href="#">
+        <img src="/img/nacional.png" alt="Logo" width="200" height="100" />
+      </a>
+      <h2 class="text-center letra-verde">
+        <i class="fa-solid fa-person-running"></i> ALVARO PEÑATES MARTINEZ
+      </h2>
+    </nav>
+
+    <div class="container">
+      <div class="row bg-success text-white">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <h2 class="KIKE"><i class="fa-solid fa-blog"></i> ESTE ES MI BLOG PERSONAL</h2>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <h2 class="KIKE"><i class="fa-regular fa-thumbs-up"></i>REDES SOCIALES</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARRUSEL -->
+    <div class="container-fluid mt-4">
+      <div class="row bg-success">
+        <!-- Carrusel -->
+        <div class="col-9 p-0">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <img
+                  src="/img/montaña.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="DEPORTE 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/running.jpeg"
+                  class="d-block w-100 img-fluid"
+                  alt="DEPORTE 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/futbol.webp"
+                  class="d-block w-100 img-fluid"
+                  alt="DEPORTE 3"
+                />
+              </div>
+            </div>
+
+            <!-- Controles del carrusel -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Lateral -->
+        <div class="col-3 bg-success text-white text-center d-flex justify-content-center align-items-center flex-column">
+          <h1 class="mb-4">
+            <i class="fa-regular fa-clipboard"></i> Mis Notas
+          </h1>
+
+          <div class="card text-bg-secondary mb-3">
+            <div class="card-body">
+              <h1 class="card-title">
+                <i class="fa-solid fa-database"></i> DATOS
+              </h1>
+              <p class="card-text">
+                NOMBRE: Álvaro Peñates Martínez <br />EDAD: 38 años
+                <br />OCUPACIÓN: Estudiante Ingeniería en Sistemas
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-bg-secondary mb-3">
+            <div class="card-body">
+              <h1 class="card-title">
+                <i class="fa-solid fa-person-rays"></i> HOBBY
+              </h1>
+              <p class="card-text">
+                Amante del running, el ciclismo y el fútbol. Siempre en
+                movimiento, buscando nuevos retos y disfrutando del deporte al
+                máximo.
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-bg-secondary mb-3">
+            <div class="card-body">
+              <h1 class="card-title">
+                <i class="fa-solid fa-star"></i>META PROFESIONAL
+              </h1>
+              <p class="card-text">
+                Mi meta al finalizar la carrera, es continuar especializándome y
+                convertirme en un profesional altamente capacitado. Sueño con
+                alcanzar un excelente empleo que me motive cada día, donde pueda
+                crear, aprender y aportar al avance de la tecnología.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
