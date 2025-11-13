@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="css/estilos_calculadora.css" />
+</head>
+<body>
+  <div class="calculadora">
+    <!-- Pantalla -->
+    <header class="calculadora_pantalla">
+      <input type="text" id="pantalla" value="0"/>
+    </header>
+
+    <!-- Teclas -->
+    <div class="calculadora_teclas">
+      <button class="boton_numero" onclick="agregar('7')">7</button>
+      <button class="boton_numero" onclick="agregar('8')">8</button>
+      <button class="boton_numero" onclick="agregar('9')">9</button>
+      <button class="boton_operadores" onclick="agregar('+')">+</button>
+
+      <button class="boton_numero" onclick="agregar('4')">4</button>
+      <button class="boton_numero" onclick="agregar('5')">5</button>
+      <button class="boton_numero" onclick="agregar('6')">6</button>
+      <button class="boton_operadores" onclick="agregar('-')">-</button>
+
+      <button class="boton_numero" onclick="agregar('1')">1</button>
+      <button class="boton_numero" onclick="agregar('2')">2</button>
+      <button class="boton_numero" onclick="agregar('3')">3</button>
+      <button class="boton_operadores" onclick="agregar('*')">*</button>
+
+      <button class="boton_numero" onclick="agregar('0')">0</button>
+      <button class="boton_numero" onclick="agregar('.')">.</button>
+      <button class="boton_operadores" onclick="agregar('/')">/</button>
+      <button class="boton_operadores" onclick="borrar()">C</button>
+      <button class="resultado" onclick="calcular()">=</button>
+    </div>
+  </div>
+
+  <script src="js/calculadora.js"></script>
+</body>
+</html>
